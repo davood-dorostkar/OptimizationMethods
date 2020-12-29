@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bin_packing_mip"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin_packing_mip">
+				<Option output="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/bin_packing_mip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/bin_packing_mip_autogen/include"/>
+					<Add directory="/home/davood/or-tools/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 bin_packing_mip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin_packing_mip/fast">
+				<Option output="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/bin_packing_mip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip"/>
+					<Add directory="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/bin_packing_mip_autogen/include"/>
+					<Add directory="/home/davood/or-tools/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 bin_packing_mip/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin_packing_mip_autogen">
+				<Option working_dir="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 bin_packing_mip_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/main.cpp">
+			<Option target="bin_packing_mip"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/build-bin_packing_mip-Unnamed-Debug/bin_packing_mip_autogen/mocs_compilation.cpp">
+			<Option target="bin_packing_mip"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/davood/Documents/Academic/Humanoid/ortools/bin_packing_mip/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
